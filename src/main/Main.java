@@ -17,13 +17,6 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		String input = "Sinh Hoc Phan Tu Cua Te Bao - Tap 3: Cau Truc Va Chuc Nang Cua Te Bao (Phan 1) - Tai Ban 2016";
-		String[] kq = Book.warpLine(input, 25);
-		System.out.println(input);
-		for (int i = 0; i < kq.length; i++) {
-			System.out.println(kq[i]);
-		}
-
 		DataIO.root = "C:\\Users\\DELL\\Desktop\\Java\\J78\\BTCK\\";
 		List<Book> listBook = DataIO.loadFile("book_data_en.txt");
 		Scanner sc = new Scanner(System.in);
